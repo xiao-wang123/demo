@@ -12,7 +12,7 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 @ComponentScan
 @EnableAutoConfiguration
  */
-@SpringBootApplication(exclude = {SecurityAutoConfiguration.class})
+@SpringBootApplication()
 // 是启动引导类、还是配置类
 public class DemoApplication {
 

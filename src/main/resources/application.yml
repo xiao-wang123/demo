@@ -1,0 +1,21 @@
+server:
+  port: 8080
+#  ssl:
+#    key-store: ./src/main/resources/mykey.jks
+#    key-store-password: wangxiaoqi
+#    key-password: wangxiaoqi
+spring:
+  thymeleaf:
+    cache: false
+  main:
+    banner-mode: off
+
+logging:
+  level:
+    root: warn
+    org:
+      springframework:
+        security: DEBUG
+  file:
+    path: /var/logs/BookWorm.log
+
